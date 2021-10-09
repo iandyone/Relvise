@@ -62,6 +62,8 @@
 }
 .landing__subscribe {
 }
+.langing__intouch {
+}
 /* ---HEADER----------------------- */
 .header {
     position: absolute;
@@ -516,7 +518,6 @@
 	font-size: 14px;
 	line-height: 142%;
 	letter-spacing: 0.2px;
-	second-text-color
 	color: #737373;
 }
 .whoweare__content-bottom >*:not(:last-child) {
@@ -702,4 +703,111 @@
 	.subscribe__input {
 		width: 100%;
 	}	
+}
+/* ---INTOUCH-------------------------*/
+
+.intouch {
+    padding: 80px 0px;
+    background: #F3F3F3;
+}
+.intouch__header {
+    margin: 0px 0px 80px 0px;
+}
+.intouch__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intouch__item {
+    flex: 0 1 33.333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 15px;
+    background-color: #fff;
+    color: #252B42;
+}
+.intouch__item >*:not(:last-child) {
+    margin: 0px 0px 15px 0px;
+}
+.intouch__item-active {
+    padding: 80px 15px ;
+    background: #252B42;
+}
+.intouch__item-active >* {
+    color: #fff;
+}
+.intouch__icon {
+    width: 72px;
+}
+.intouch__icon img {
+    max-width: 100%;
+}
+.intouch__emails {
+    display: flex;
+    flex-direction: column;
+}
+.intouch__email {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: calc(24 / 14 * 100%);
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: inherit;
+}
+.intouch__label {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(24 / 16 * 100%);
+    text-align: center;
+    letter-spacing: 0.1px;
+}
+.intouch__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 44px;
+    padding: 5px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: calc(24 / 14 * 100%);
+    letter-spacing: 0.2px;
+    color: #FF7B47;
+    border: 1px solid #FF7B47;
+    border-radius: 5px; 
+    transition: 0.3s;
+}
+.intouch__button-active {
+    border: 1px solid #FFFFFF;
+    color: #fff;
+}
+.intouch__button-active:hover {
+    border-color: #FF7B47;
+}
+
+.intouch__button:hover {
+    background-color: #FF7B47;;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .intouch {
+        padding: 50px 0;
+    }
+    .intouch__header {
+        margin: 0px 0px 40px 0px;
+    }
+    .intouch__body {
+        flex-direction: column;
+    }
+    .intouch__item {
+        flex: 1 1 auto;
+        width: 100%;
+    }
+    .intouch__item-active {
+        padding: 80px 15px;
+    }
 }
