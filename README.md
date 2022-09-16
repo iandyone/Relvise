@@ -4,7 +4,7 @@ A simple responsive landing page.
 
 ## Deplpoy link:
 
-[https://iandy1731.github.io/Relvise](https://iandy1731.github.io/Relvise)
+[https://iandyone.github.io/Relvise](https://iandyone.github.io/Relvise)
 
 ## Technologies:
 
